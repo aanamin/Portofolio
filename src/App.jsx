@@ -115,7 +115,7 @@ function App() {
                          ))}
                       </div>
 
-                      <div className="pt-6 border-t border-slate-700">
+                      {/* <div className="pt-6 border-t border-slate-700">
                          <h4 className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">Actions</h4>
                          <div className="space-y-3">
                            <a href={selectedProject.links?.demo} className={`flex items-center justify-center gap-2 w-full py-3 bg-${selectedProject.color}-600 text-white rounded-xl font-bold hover:bg-${selectedProject.color}-500 transition-all`}>
@@ -125,7 +125,7 @@ function App() {
                              <RiGithubFill /> Repository
                            </a>
                          </div>
-                      </div>
+                      </div> */}
                    </div>
                 </div>
               </div>

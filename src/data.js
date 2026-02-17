@@ -42,7 +42,7 @@ export const PROJECTS_DATA = [
       "Integrated Catering & Regular Order Management",
       "Kitchen Production Dashboard (KDS)"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 9, // UNAND ENDOWMENT
@@ -61,7 +61,7 @@ export const PROJECTS_DATA = [
       "Endowment Fund Collection & Tracking",
       "Financial Reporting Transparency"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const PROJECTS_DATA = [
       "Employee Database Integration",
       "PDF Export for Monthly Reports"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 5,
@@ -102,7 +102,7 @@ export const PROJECTS_DATA = [
       "Admin Approval Workflow",
       "Push Notifications"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
 
   // --- TAHUN 2024 ---
@@ -126,7 +126,7 @@ export const PROJECTS_DATA = [
       "Role-Based Access Control (Admin/User)",
       "Master Data Administration"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 2,
@@ -145,7 +145,7 @@ export const PROJECTS_DATA = [
       "Secure Admin Authentication",
       "Responsive Mobile Design"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 6,
@@ -166,7 +166,7 @@ export const PROJECTS_DATA = [
       "Ticket Tracking Status",
       "Data Visualization Dashboard"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
 
   // --- TAHUN 2023 ---
@@ -188,7 +188,7 @@ export const PROJECTS_DATA = [
       "Incident Photo Upload",
       "Direct Line to Emergency Services"
     ],
-    links: { demo: "#", repo: "#" }
+    
   },
   {
     id: 8,
@@ -209,7 +209,7 @@ export const PROJECTS_DATA = [
       "Confidential Assessment Processing",
       "Performance History Analytics"
     ],
-    links: { demo: "#", repo: "#" }
+    
   }
 ];
 
