@@ -180,9 +180,14 @@ function App() {
               Information Systems graduate from <span className="font-bold text-slate-900">Andalas University</span> (GPA <span className="bg-slate-900 text-white px-1 rounded">3.86</span>). specialized in bridging business logic with high-performance web solutions.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="px-8 py-4 font-bold text-white transition-all bg-indigo-600 rounded-xl hover:bg-indigo-700 shadow-lg shadow-indigo-200">
-                Download CV
-              </a>
+              <a 
+               href="/assets/cv-alamin.pdf" 
+               target="_blank"
+               rel="noopener noreferrer"
+               className="px-8 py-4 font-bold text-white transition-all bg-indigo-600 rounded-xl hover:bg-indigo-700 shadow-lg shadow-indigo-200 hover:-translate-y-1"
+               >
+               Download CV
+               </a>
               <a href="#projects" className="px-8 py-4 font-bold transition-all border-2 border-slate-200 rounded-xl hover:border-indigo-600 hover:text-indigo-600 text-slate-600">
                 View Projects
               </a>
