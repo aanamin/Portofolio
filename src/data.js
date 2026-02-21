@@ -176,7 +176,8 @@ export const PROJECTS_DATA = [
     year: "2023",
     type: "Android App",
     images: [
-      "/assets/proyek/ef4444.png", // Ganti dengan gambar yang sesuai
+      "/assets/proyek/adura.png", // Ganti dengan gambar yang sesuai
+      "/assets/proyek/adura2.png", // Ganti dengan gambar yang sesuai
     ],
     desc: "Android application for public complaints regarding emergency incidents such as medical emergencies, fires, and security issues. Designed for quick response and GPS tracking.",
     tech_stack: ["Android", "Java", "Google Maps API", "Firebase"],
