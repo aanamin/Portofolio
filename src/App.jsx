@@ -5,7 +5,7 @@ import DataImage, { PROJECTS_DATA, CONTACTS_DATA } from "./data";
 
 // --- IMPORT ICONS UNTUK UI ---
 import { 
-  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin 
+  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql // <-- DITAMBAHKAN: SiPostgresql
 } from "react-icons/si";
 import { 
   FaReact, FaLaravel, FaNodeJs, FaGraduationCap, FaSchool, FaAndroid 
@@ -313,6 +313,14 @@ function App() {
                             <SiBootstrap className="text-3xl text-slate-400 group-hover:text-purple-600 transition-colors" />
                          </div>
                          <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-purple-500 transition-colors">Bootstrap</span>
+                      </div>
+                      
+                      {/* NEW: PostgreSQL */}
+                      <div className="group flex flex-col items-center gap-2 cursor-pointer">
+                         <div className="w-14 h-14 flex items-center justify-center bg-slate-800 rounded-xl border border-slate-700 group-hover:border-blue-400 group-hover:bg-blue-400/10 transition-all duration-300">
+                            <SiPostgresql className="text-3xl text-slate-400 group-hover:text-blue-400 transition-colors" />
+                         </div>
+                         <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-blue-300 transition-colors">PostgreSQL</span>
                       </div>
 
                    </div>
