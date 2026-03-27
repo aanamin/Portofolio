@@ -100,6 +100,7 @@ function App() {
                 </div>
 
                 {/* Right Column: Tech Stack & Actions */}
+                {/* Right Column: Tech Stack & Actions */}
                 <div className="lg:col-span-1">
                    <div className="bg-slate-800/30 p-6 rounded-2xl border border-slate-700 h-full">
                       <div className="flex items-center gap-2 mb-6">
@@ -115,17 +116,43 @@ function App() {
                          ))}
                       </div>
 
-                      {/* <div className="pt-6 border-t border-slate-700">
-                         <h4 className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">Actions</h4>
-                         <div className="space-y-3">
-                           <a href={selectedProject.links?.demo} className={`flex items-center justify-center gap-2 w-full py-3 bg-${selectedProject.color}-600 text-white rounded-xl font-bold hover:bg-${selectedProject.color}-500 transition-all`}>
-                             <RiLinkM /> Live Demo
-                           </a>
-                           <a href={selectedProject.links?.repo} className="flex items-center justify-center gap-2 w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-all">
-                             <RiGithubFill /> Repository
-                           </a>
-                         </div>
-                      </div> */}
+                      {/* TAMPILKAN ACTIONS JIKA ADA DATA LINKS */}
+                      {selectedProject.links && (
+                        <div className="pt-6 border-t border-slate-700">
+                           <h4 className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-4">Actions</h4>
+                           <div className="space-y-3">
+                             
+                             {/* Tombol Live Demo */}
+                             {selectedProject.links.demo && (
+                               <a href={selectedProject.links.demo} target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center gap-2 w-full py-3 bg-${selectedProject.color}-600 text-white rounded-xl font-bold hover:bg-${selectedProject.color}-500 transition-all`}>
+                                 <RiLinkM size={20} /> Live Demo
+                               </a>
+                             )}
+
+                             {/* Tombol Kasus 1: Single Repo */}
+                             {selectedProject.links.repo && (
+                               <a href={selectedProject.links.repo} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-all">
+                                 <RiGithubFill size={20} /> Repository
+                               </a>
+                             )}
+
+                             {/* Tombol Kasus 2: Repo Frontend */}
+                             {selectedProject.links.repoFE && (
+                               <a href={selectedProject.links.repoFE} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-all">
+                                 <RiGithubFill size={20} /> Frontend Repo
+                               </a>
+                             )}
+
+                             {/* Tombol Kasus 2: Repo Backend */}
+                             {selectedProject.links.repoBE && (
+                               <a href={selectedProject.links.repoBE} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-all">
+                                 <RiGithubFill size={20} /> Backend Repo
+                               </a>
+                             )}
+
+                           </div>
+                        </div>
+                      )}
                    </div>
                 </div>
               </div>

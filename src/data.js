@@ -33,7 +33,7 @@ export const PROJECTS_DATA = [
       "/assets/proyek/surya4.jpg",
       "/assets/proyek/surya5.jpg",
     ],
-    desc: "A comprehensive management system built on a dual-platform architecture (Web & Mobile) to streamline restaurant operations. It features a React Native mobile application for customers and a web-based dashboard for cashiers and admin, all connected via a RESTful API for seamless real-time synchronization.",
+    desc: "A comprehensive management system built on a dual-platform architecture (Web & Mobile) to streamline restaurant operations. It features a React Native mobile application for customers, kitchen, and cashiers and a web-based dashboard for admin, all connected via a RESTful API for seamless real-time synchronization.",
     tech_stack: ["React Native", "Express.js", "MySQL", "Midtrans", "Sequelize"],
     color: "indigo",
     features: [
@@ -42,6 +42,12 @@ export const PROJECTS_DATA = [
       "Integrated Catering & Regular Order Management",
       "Kitchen Production Dashboard (KDS)"
     ],
+    
+    links: {
+      repoFE: "https://github.com/aanamin/Expo/",
+      repoBE: "https://github.com/aanamin/Backend_TA/",
+      // demo: "https://link-demo-kalau-ada.com" // opsional
+    }
     
   },
   {
@@ -61,6 +67,10 @@ export const PROJECTS_DATA = [
       "Endowment Fund Collection & Tracking",
       "Financial Reporting Transparency"
     ],
+    links: {
+      repo: "https://github.com/aanamin/UPW",
+      demo: "https://danasosial.unand.ac.id/" // opsional
+    },
     
   },
   {
@@ -82,6 +92,9 @@ export const PROJECTS_DATA = [
       "Employee Database Integration",
       "PDF Export for Monthly Reports"
     ],
+    links:{
+      demo: "https://upzsp.org/"
+    }
     
   },
   {
@@ -102,6 +115,12 @@ export const PROJECTS_DATA = [
       "Admin Approval Workflow",
       "Push Notifications"
     ],
+    links: {
+      repoBE: "https://github.com/aanamin/sakato",
+      repoFE: "https://github.com/aanamin/sebook",
+
+      // demo: "https://link-demo-kalau-ada.com" // opsional
+    }
     
   },
 
@@ -126,17 +145,21 @@ export const PROJECTS_DATA = [
       "Role-Based Access Control (Admin/User)",
       "Master Data Administration"
     ],
+    links: {
+      repo: "https://github.com/aanamin/surat_pbf",
+      // demo: "https://link-demo-kalau-ada.com" // opsional
+    }
     
   },
   {
     id: 2,
-    title: "Metro Company Profile",
+    title: "Company Profile",
     year: "2024",
     type: "Full-Stack",
     images: [
       "/assets/proyek/adino.jpg",
     ],
-    desc: "Full-stack company profile featuring an intuitive admin dashboard and a responsive landing page for PT Metro Indonesian Software. Designed to showcase company services, portfolios, and client testimonials.",
+    desc: "Full-stack company profile featuring an intuitive admin dashboard and a responsive landing page for Adino. Designed to showcase company services, portfolios, and client testimonials.",
     tech_stack: ["Express.js", "EJS", "PostgreSQL", "Bootstrap", "Sequelize"],
     color: "blue",
     features: [
@@ -145,7 +168,10 @@ export const PROJECTS_DATA = [
       "Secure Admin Authentication",
       "Responsive Mobile Design"
     ],
-    
+    links: {
+      repo: "https://github.com/aanamin/Adino_Remake",
+      // demo: "https://link-demo-kalau-ada.com" // opsional
+    }
   },
   {
     id: 6,
@@ -189,7 +215,10 @@ export const PROJECTS_DATA = [
       "Incident Photo Upload",
       "Direct Line to Emergency Services"
     ],
-    
+    links: {
+      repo: "https://github.com/aanamin/adura-app",
+      demo: "https://link-demo-kalau-ada.com" // opsional
+    }
   },
   {
     id: 8,
