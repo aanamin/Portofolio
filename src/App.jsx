@@ -5,7 +5,7 @@ import DataImage, { PROJECTS_DATA, CONTACTS_DATA } from "./data";
 
 // --- IMPORT ICONS UNTUK UI ---
 import { 
-  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql // <-- DITAMBAHKAN: SiPostgresql
+  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql, SiDotnet, SiGo, SiCsharp
 } from "react-icons/si";
 import { 
   FaReact, FaLaravel, FaNodeJs, FaGraduationCap, FaSchool, FaAndroid 
@@ -208,7 +208,7 @@ function App() {
             </p>
             <div className="flex gap-4">
               <a 
-               href="/assets/cv-alamin.pdf" 
+               href="/assets/Al-Amin_CV.pdf" 
                target="_blank"
                rel="noopener noreferrer"
                className="px-8 py-4 font-bold text-white transition-all bg-indigo-600 rounded-xl hover:bg-indigo-700 shadow-lg shadow-indigo-200 hover:-translate-y-1"
@@ -332,6 +332,29 @@ function App() {
                             <FaAndroid className="text-3xl text-slate-400 group-hover:text-green-400 transition-colors" />
                          </div>
                          <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-green-300 transition-colors">Android</span>
+                      </div>
+
+                      <div className="group flex flex-col items-center gap-2 cursor-pointer">
+                         <div className="w-14 h-14 flex items-center justify-center bg-slate-800 rounded-xl border border-slate-700 group-hover:border-indigo-500 group-hover:bg-indigo-500/10 transition-all duration-300">
+                            <SiDotnet className="text-3xl text-slate-400 group-hover:text-indigo-400 transition-colors" />
+                         </div>
+                         <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-indigo-300 transition-colors">.NET</span>
+                      </div>
+
+                      {/* NEW: Go */}
+                      <div className="group flex flex-col items-center gap-2 cursor-pointer">
+                         <div className="w-14 h-14 flex items-center justify-center bg-slate-800 rounded-xl border border-slate-700 group-hover:border-cyan-500 group-hover:bg-cyan-500/10 transition-all duration-300">
+                            <SiGo className="text-3xl text-slate-400 group-hover:text-cyan-400 transition-colors" />
+                         </div>
+                         <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-cyan-300 transition-colors">Go</span>
+                      </div>
+
+                      {/* NEW: C# */}
+                      <div className="group flex flex-col items-center gap-2 cursor-pointer">
+                         <div className="w-14 h-14 flex items-center justify-center bg-slate-800 rounded-xl border border-slate-700 group-hover:border-purple-500 group-hover:bg-purple-500/10 transition-all duration-300">
+                            <SiCsharp className="text-3xl text-slate-400 group-hover:text-purple-400 transition-colors" />
+                         </div>
+                         <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-purple-300 transition-colors">C#</span>
                       </div>
 
                       {/* NEW: Bootstrap */}
