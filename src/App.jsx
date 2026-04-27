@@ -5,8 +5,9 @@ import DataImage, { PROJECTS_DATA, CONTACTS_DATA } from "./data";
 
 // --- IMPORT ICONS UNTUK UI ---
 import { 
-  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql, SiDotnet, SiGo, SiCsharp
+  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql, SiDotnet, SiGo
 } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 import { 
   FaReact, FaLaravel, FaNodeJs, FaGraduationCap, FaSchool, FaAndroid 
 } from "react-icons/fa";
@@ -352,7 +353,7 @@ function App() {
                       {/* NEW: C# */}
                       <div className="group flex flex-col items-center gap-2 cursor-pointer">
                          <div className="w-14 h-14 flex items-center justify-center bg-slate-800 rounded-xl border border-slate-700 group-hover:border-purple-500 group-hover:bg-purple-500/10 transition-all duration-300">
-                            <SiCsharp className="text-3xl text-slate-400 group-hover:text-purple-400 transition-colors" />
+                            <TbBrandCSharp className="text-3xl text-slate-400 group-hover:text-purple-400 transition-colors" />
                          </div>
                          <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 group-hover:text-purple-300 transition-colors">C#</span>
                       </div>
