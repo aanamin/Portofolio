@@ -5,19 +5,21 @@ import DataImage, { PROJECTS_DATA, CONTACTS_DATA } from "./data";
 
 // --- IMPORT ICONS UNTUK UI ---
 import {
-SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql, SiDotnet, SiGo
+  SiPhp, SiMysql, SiBootstrap, SiCodeigniter, SiKotlin, SiPostgresql, SiDotnet, SiGo,
+  SiNextdotjs, SiNestjs, SiTypescript, SiFlutter, SiTailwindcss, SiRedis, SiPostman, SiJest // <-- Ikon SI yang baru
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import {
-FaReact, FaLaravel, FaNodeJs, FaGraduationCap, FaSchool, FaAndroid
+  FaReact, FaLaravel, FaNodeJs, FaGraduationCap, FaSchool, FaAndroid,
+  FaPython, FaGitAlt // <-- Ikon FA yang baru
 } from "react-icons/fa";
 import {
-IoLogoJavascript, IoClose, IoCamera
+  IoLogoJavascript, IoClose, IoCamera
 } from "react-icons/io5";
 import {
-RiGithubFill, RiLinkM, RiBuilding2Fill, RiMacbookLine,
-RiGovernmentFill, RiMapPinLine, RiCheckLine, RiMedalFill,
-RiArrowRightLine
+  RiGithubFill, RiLinkM, RiBuilding2Fill, RiMacbookLine,
+  RiGovernmentFill, RiMapPinLine, RiCheckLine, RiMedalFill,
+  RiArrowRightLine
 } from "react-icons/ri";
 
 function App() {
