@@ -106,7 +106,7 @@ export const PROJECTS_DATA = [
       "/assets/proyek/sakato.png",
     ],
     desc: "Android-based application designed to streamline facility usage and scheduling for community organizations. Features a clean mobile interface for easy room reservation and conflict prevention.",
-    tech_stack: ["Android", "Kotlin", "MySQL", "Material Design"],
+    tech_stack: ["Android", "Kotlin", "MySQL", "Epress.js"],
     color: "amber",
     isMobile: true,
     features: [
@@ -196,34 +196,11 @@ export const PROJECTS_DATA = [
   },
 
   // --- TAHUN 2023 ---
-  {
-    id: 7,
-    title: "Emergency Complaints App",
-    year: "2023",
-    type: "Android App",
-    images: [
-      "/assets/proyek/adura.png", // Ganti dengan gambar yang sesuai
-      "/assets/proyek/adura2.png", // Ganti dengan gambar yang sesuai
-    ],
-    desc: "Android application for public complaints regarding emergency incidents such as medical emergencies, fires, and security issues. Designed for quick response and GPS tracking.",
-    tech_stack: ["Android", "Java", "Google Maps API", "Firebase"],
-    color: "red",
-    isMobile: true,
-    features: [
-      "One-Touch SOS Button",
-      "Real-time GPS Location Sharing",
-      "Incident Photo Upload",
-      "Direct Line to Emergency Services"
-    ],
-    links: {
-      repo: "https://github.com/aanamin/adura-app",
-      demo: "https://link-demo-kalau-ada.com" // opsional
-    }
-  },
+  
   {
     id: 8,
     title: "Employee Evaluation System",
-    year: "2023",
+    year: "2024",
     type: "Web App",
     images: [
       "/assets/proyek/spk pegawai.jpg",
